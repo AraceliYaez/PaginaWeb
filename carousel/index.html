@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.82.0">
+    <title>Carousel Template · Bootstrap v5.0</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+
+
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 2.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md  fixed-top " style="background-color: #ffff;">
+    <div class="container-fluid">
+      <a class="navbar-brand"  href="#">
+       <img alt="Logo" style="width: 170px;" src="logo.jpg?w=10">
+      </a>
+      <button class="navbar-toggler bg-dark collapsed"  STYLE="
+      color:#7aca39;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span  xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+        </span >
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active letras" aria-current="page" href="#">INICIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link letras"  href="#QuinesSomos">QUIENES SOMOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link letras disabled"  href="#" tabindex="-1" aria-disabled="true">SOLUCIONES A<BR> TRASPORTE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link letras disabled"  href="#" tabindex="-1" aria-disabled="true">ACOMPAÑAMIENTO<BR> FINANCIERO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link letras disabled"  href="#" tabindex="-1" aria-disabled="true">NUESTRAS <BR> UNIDADES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link letras disabled"  href="#" tabindex="-1" aria-disabled="true">CONTRIBUCIÓN GAS LP</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link letras disabled"  href="#" tabindex="-1" aria-disabled="true">LLENA TU SOLICITUD</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link letras disabled"  href="#" tabindex="-1" aria-disabled="true">SALA DE PRENSA</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div  class="carousel-item active">
+        <img  style="max-width: 250%;height: auto;" src="Img/NegociosUno.jpg" >
+    
+        <div class="container">
+          <div class="carousel-caption text-sm-start"  >
+            <h1>TU UNIDAD SE PAGA SOLA, NOSOTROS TE ASESORAMOS</h1>
+            
+            <p>Financiamiento</br>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+              </svg> Sin buró de crédito </br>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+              </svg> Sin comprobar ingresos
+              </p>
+            <p><a class="btn  btn-outline-light" href="#">Más Información</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img style="max-width: 250%;height: auto;" src="Img/unidades.jpg" >
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>ESPECIALISTAS EN TRANSPORTE PÚBLICO
+            </h1>
+            <p>Te damos las opciones para Taxis, Colectivos y Autobús. Elije la unidad de tus sueño.</p>
+            <p><a class="btn  btn-outline-light" href="#">Más Información</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img style="max-width: 250%;height: auto;" src="Img/tres.jpg" >
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>UNIDADES NUEVAS AL MÁS BAJO PRECIO
+            </h1>
+            <p>Te ofrecemos las unidades más económicas y rendidoras para transporte público, desde un taxi hasta un autobús, todas convertidas a Gas LP, para que su operación te pague el financiamiento. 
+            </p>  <p><a class="btn  btn-outline-light" href="#">Más Información</a></p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+
+      <hr class="featurette-divider" style="margin: -1rem 2rem;">
+      <div class="col-lg-12 ">
+      <h2 class="txtTresD">Crédito y Capital
+      </h2>
+    </div>
+    <div class="col-lg-4 ">
+    </div>
+    <div class="col-lg-4 ">
+    <p style="text-align: center;">Crédito y Capital te brinda la asesoría para renovar tu unidad mediante esquemas financieros flexibles que te permiten adquirir vehículos nuevos, con mayor facilidad que una unidad usada.
+    </p>
+    
+  </div>
+    <div class="col-lg-4 ">
+    </div>
+    <hr class="featurette-divider" style="margin: -1rem 2rem;"><br><br>
+  </div>
+    <div class="row">
+      <div class="col-lg-4 ">
+        <img style="max-width: 49%;height: auto;" src="Img/Financiamiento.png" >
+        <h2>FINANCIAMIENTO</h2>
+        <p>Te ofrecemos las mejores tasas  del mercado, con las mayores facilidades.
+        </p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img style="max-width: 49%;height: auto;" src="Img/Vehiculo.png" >
+        <h2>VEHICULOS</h2>
+        <p>Elige el vehículo de tu preferencia en el mercado o una de nuestras unidades, la mejor opción precio/rendimiento.
+        </p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <div class="container">
+          <img style="max-width: 55%;height: auto;" src="Img/simulador.png" >
+        <h2>SIMULADOR</h2>
+        <p>Una vez elegido tu unidad, te presentamos el plan de financiamiento que te ofrecemos y sepas cuanto será tu mensualidad.
+        </p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7" id="QuinesSomos">
+        <h2 class="featurette-heading">¿Quienes Somos?</h2>
+        <p class="lead" style="text-align: justify;"><br>Crédito y Capital es una SOFOM con sede en la Ciudad de Monterrey, Nuevo León, fundada en 2018. 
+
+          <br>Las Sofom son organismos financieros que han tenido un acelerado crecimiento, al ser una alternativa para que pequeños y y medianos empresarios, financien sus equipos de trabajo, a tasas competitivas en el mercado. 
+          <br>
+          En una SOFOM, puedes acceder a prestamos o arrendamientos financieros, con mecanismos más flexibles que en el Banco, lo que te permite equiparte de un taxi, camioneta o autobús, para transporte público.  
+          </p>
+      </div>
+      <div class="col-md-5"><br><br><br>
+         <img width="500" height="300" src="Img/somos.jpg" ><br><br><br>
+         <p><a class="btn  btn-outline-success" href="#">Leer Más -></a></p>
+
+      </div>
+    </div>
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; 2021 Company, PHI &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
+</main>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>
